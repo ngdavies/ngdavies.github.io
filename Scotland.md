@@ -8,8 +8,15 @@ Helpful websites
 
 
 Helpful books
- - [Scotland the Best, Peter Irving](https://www.harpercollins.co.uk/9780007559343/scotland-the-best) - the numbers in brackets are links to the book
- - [Scotland the Best - 100 places](https://www.harpercollins.co.uk/9780007559374/scotland-the-best-100-places) - from the library
+ - [Scotland the Best, Peter Irving](https://www.harpercollins.co.uk/9780007559343/scotland-the-best) - the numbers in brackets are paragraphs in the book, like this (1154)
+ - [Scotland the Best - 100 places](https://www.harpercollins.co.uk/9780007559374/scotland-the-best-100-places) - from the library, numbers like this <132>
+ - [Lonely Planet - Scotland's Highlands and Islands]( http://shop.lonelyplanet.com/scotland/scotlands-highlands-islands-3/) lpXX page references lpXX page references
+ - [Sunflower - Scottish Highlands](http://sunflowerbooks.co.uk/product/walking-in-the-scottish-highlands/) from the library. spXX page references
+ - [Footprint - Scotland Highlands and Islands](http://www.footprinttravelguides.com/europe/&Action=product&Product_Reference=SHIH06) from the [library](https://arena.westsussex.gov.uk/web/arena/results?p_auth=2vpc8XGr&p_p_id=crDetailWicket_WAR_arenaportlets&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=4&p_r_p_687834046_facet_queries=&p_r_p_687834046_search_item_no=0&p_r_p_687834046_sort_advice=field%3DRelevance%26direction%3DDescending&p_r_p_687834046_search_item_id=1909268623&p_r_p_687834046_agency_name=AUK000038&p_r_p_687834046_search_type=solr&p_r_p_687834046_search_query=title%3A+%22Scotland+Highlands+%5C%5C%5C%26+Islands.+6th+ed%22), fp10 page number for example
+
+Apps
+ - [Scotland the Best]()
+ - [Historic Scotland]()
 
 #### To do list
   [ ] Book Samphire restaurant for the 13th
@@ -30,10 +37,14 @@ Helpful books
  - Dinner [The George Inn](http://www.thegeorgehotel.co.uk), call to reserve a table if arriving after 17:00
  - Dinner alternative [Samphire Invarary](http://samphireseafood.com/) (795) for dinner 13th?
  - Sights: [Rest and be thankful (1641)](http://www.scotlandinfo.eu/rest-and-be-thankful-on-the-a83/)
- - Walks: Invarary Castle estate
+ - Walks: [Invarary Castle estate](http://www.inveraray-castle.com/), [US](http://www.undiscoveredscotland.co.uk/inveraray/inveraraycastle/)
+ - A [climb from the castle](https://www.walkhighlands.co.uk/argyll/dun-na-cuaiche.shtml), (3 miles, 2 hours)
+ - Garden Crarae Garden [NTS](http://www.nts.org.uk/Property/Crarae-Garden/) Most georgeous of the famed gardens of Argyle (1508xx), <144>. 30 minutes south of Invarary.
 
 ### Sunday 14 May - Drive from Invarary to Oban
  - Journey, option 1 [via Kilchurn Castle and Loch Etive](https://www.google.co.uk/maps/dir/George+Hotel,+Main+Street+East,+Inveraray/Alltavona+House,+Corran+Esplanade,+Oban+PA34+5AQ/@56.3448102,-5.3875457,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!1m5!1m1!1s0x4889677357a99e41:0xce3a230d2e0d3bd1!2m2!1d-5.4823198!2d56.4214632!3e0) (40 miles 1 hour).
+ - Journey, via [Kilchurn, Angus's Garden and the back route](https://www.google.co.uk/maps/dir/The+George+Hotel,+Main+St+E,+Inveraray+PA32+8TT/Kilchurn+castle+car+park,+A85,+Dalmally/Angus's+Garden,+Taynuilt+PA35+1JS/Alltavona+House,+Corran+Esplanade,+Oban/@56.401801,-5.2313599,13z/data=!4m31!4m30!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!1m5!1m1!1s0x4889168ef5819ac1:0xb40bda035e0e9efa!2m2!1d-5.0182226!2d56.407086!1m10!1m1!1s0x48896a2bcbd190d7:0xb10ccbf1a28a96f8!2m2!1d-5.2800337!2d56.4090224!3m4!1m2!1d-5.3436841!2d56.3995704!3s0x48896901696096ff:0x154716d9828550f0!1m5!1m1!1s0x4889677357a99e41:0xce3a230d2e0d3bd1!2m2!1d-5.4823198!2d56.4214632!3e0)
+ - Journey, as [as above with a detour to walk at Glen Nant](https://www.google.co.uk/maps/dir/The+George+Hotel,+Main+St+E,+Inveraray+PA32+8TT/Kilchurn+castle+car+park,+A85,+Dalmally/Glen+Nant+National+Nature+Reserve,+Taynuilt/Angus's+Garden,+Taynuilt+PA35+1JS/Alltavona+House,+Corran+Esplanade,+Oban/@56.3312641,-5.387547,11z/data=!3m1!4b1!4m37!4m36!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!1m5!1m1!1s0x4889168ef5819ac1:0xb40bda035e0e9efa!2m2!1d-5.0182226!2d56.407086!1m5!1m1!1s0x48896a5ccb37ad7b:0xc3e72ea0e88652ba!2m2!1d-5.2101877!2d56.3960907!1m10!1m1!1s0x48896a2bcbd190d7:0xb10ccbf1a28a96f8!2m2!1d-5.2800337!2d56.4090224!3m4!1m2!1d-5.3436841!2d56.3995704!3s0x48896901696096ff:0x154716d9828550f0!1m5!1m1!1s0x4889677357a99e41:0xce3a230d2e0d3bd1!2m2!1d-5.4823198!2d56.4214632!3e0)
  - Overnight [Alltavona B&B](http://alltavona.co.uk), booked
  - Dinner, lots of choice in Oban, they say. Especially seafood
  
@@ -41,9 +52,14 @@ Helpful books
  - Sights: [Kilchurn Castle](http://www.undiscoveredscotland.co.uk/lochawe/kilchurncastle/) (1784) or [here](https://www.historicenvironment.scot/visit-a-place/places/kilchurn-castle/) and [wikipedia](https://en.wikipedia.org/wiki/Kilchurn_Castle)
  - Walk: [Kilchurn Caslte](https://www.walkhighlands.co.uk/argyll/kilchurn-castle.shtml)(1 mile, easy)
  - Sight: [St Conans Kirk](https://www.visitscotland.com/info/see-do/st-conans-kirk-p995981) (1841)
+ - Garden: [Angus's Garden](), at Taynuilt, <136> on the Glen Lonan unclassified road, the "picturesque back road to Oban".
+ - Walk: Taynault is close to the shore of Loch Etive. Great walking in Lochaweshdie woodlands, eg Glen Nant Woods south on B845.
+
+ We stay overnight at Oban and may have time for some of these
  - sights: [Dunollie Castle](http://www.dunollie.org/) (1782) - Sights and woodland walks
  - Sights: [McCaigs Tower](https://www.visitscotland.com/info/see-do/mccaigs-tower-p255141) (or [Folly](https://en.wikipedia.org/wiki/McCaig's_Tower)) (1837), Pulpit Hill.
  - Sights: [Oban Distillery](https://www.discovering-distilleries.com/oban/)
+
 
 ## To Mull and Iona
 
@@ -87,6 +103,9 @@ Iona Abbey
  - Ferry: The turn up and go [Fiophort Iona Ferry](https://www.calmac.co.uk/fionnphort-iona-iona-ferry-summer-timetable), [timetable link](https://www.argyll-bute.gov.uk/fionnphort-iona-ferry-timetable)
  - Overnight [The Bellacroy Hotel](http://www.thebellachroy.co.uk)
  - Dinner at the Bellacroy? Not booked.
+
+ - Walks on Ulva at Ulva Ferry, 
+ - Walks at Calfary Beach and walks at the bays not to be missed
  - Stops Waterfall (1600)
  - Sights - [Duart Castle](http://www.duartcastle.com/) (1762), good teas!
 
@@ -122,7 +141,7 @@ There are plenty of [walks](https://www.walkhighlands.co.uk/fortwilliam/ardnamur
  - Overnight [Kilcamb Lodge](https://www.kilcamblodge.co.uk/)
  - Dinner included at Kilcamb lodge
  - Walk: [Ardnamuchan Point (1740)](http://www.undiscoveredscotland.co.uk/kilchoan/ardnamurchanpoint/index.html) and we might see whales or dolphins, for [4 mile med circular walk](https://www.walkhighlands.co.uk/fortwilliam/ardnamurchanpoint.shtml)
- - Walk: [Sanna Beach](http://www.undiscoveredscotland.co.uk/kilchoan/sanna/index.html), [6 mile easy walk](https://www.walkhighlands.co.uk/fortwilliam/singingsands.shtml)
+ - Walk: [Sanna Beach](http://www.undiscoveredscotland.co.uk/kilchoan/sanna/index.html), fp10 [6 mile easy walk](https://www.walkhighlands.co.uk/fortwilliam/singingsands.shtml)
  - Signts: Ardnamuchan lighthouse
  - Stop: a [1.5 mile walk to the loch for otters](https://www.walkhighlands.co.uk/fortwilliam/ardairigh.shtml)
  - Stop for a view: [Camas Nan Geall](http://www.wildlochaber.com/ardnamurchan/walking/camas-nan-geall) or [here](https://canmore.org.uk/site/22350/camas-nan-geall-cladh-chiarain), where there is a [3 mile walk](https://www.walkhighlands.co.uk/fortwilliam/camasnangeall.shtml)
@@ -180,5 +199,5 @@ There are plenty of [walks](https://www.walkhighlands.co.uk/fortwilliam/ardnamur
 [The Whitehouse Restaurant](http://www.thewhitehouserestaurant.co.uk/)
 
 23 May - stop at the clachaig inn, glen coe?
-From Mhor 84, Conic Hill (1940) and Inchcailloch Island (2008)
+From Mhor 84, Conic Hill (1940),fp10 and Inchcailloch Island (2008)
 
