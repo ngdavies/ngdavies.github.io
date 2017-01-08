@@ -289,165 +289,262 @@ img {
   max-width: 100%
 }
 </style>
+<style type="text/css">
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.pl-c {
+    color: #969896;
+}
+
+.pl-c1,.pl-mdh,.pl-mm,.pl-mp,.pl-mr,.pl-s1 .pl-v,.pl-s3,.pl-sc,.pl-sv {
+    color: #0086b3;
+}
+
+.pl-e,.pl-en {
+    color: #795da3;
+}
+
+.pl-s1 .pl-s2,.pl-smi,.pl-smp,.pl-stj,.pl-vo,.pl-vpf {
+    color: #333;
+}
+
+.pl-ent {
+    color: #63a35c;
+}
+
+.pl-k,.pl-s,.pl-st {
+    color: #a71d5d;
+}
+
+.pl-pds,.pl-s1,.pl-s1 .pl-pse .pl-s2,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre,.pl-src,.pl-v {
+    color: #df5000;
+}
+
+.pl-id {
+    color: #b52a1d;
+}
+
+.pl-ii {
+    background-color: #b52a1d;
+    color: #f8f8f8;
+}
+
+.pl-sr .pl-cce {
+    color: #63a35c;
+    font-weight: bold;
+}
+
+.pl-ml {
+    color: #693a17;
+}
+
+.pl-mh,.pl-mh .pl-en,.pl-ms {
+    color: #1d3e81;
+    font-weight: bold;
+}
+
+.pl-mq {
+    color: #008080;
+}
+
+.pl-mi {
+    color: #333;
+    font-style: italic;
+}
+
+.pl-mb {
+    color: #333;
+    font-weight: bold;
+}
+
+.pl-md,.pl-mdhf {
+    background-color: #ffecec;
+    color: #bd2c00;
+}
+
+.pl-mdht,.pl-mi1 {
+    background-color: #eaffea;
+    color: #55a532;
+}
+
+.pl-mdr {
+    color: #795da3;
+    font-weight: bold;
+}
+
+.pl-mo {
+    color: #1d3e81;
+}
+.task-list {
+padding-left:10px;
+margin-bottom:0;
+}
+
+.task-list li {
+    margin-left: 20px;
+}
+
+.task-list-item {
+list-style-type:none;
+padding-left:10px;
+}
+
+.task-list-item label {
+font-weight:400;
+}
+
+.task-list-item.enabled label {
+cursor:pointer;
+}
+
+.task-list-item+.task-list-item {
+margin-top:3px;
+}
+
+.task-list-item-checkbox {
+display:inline-block;
+margin-left:-20px;
+margin-right:3px;
+vertical-align:1px;
+}
+</style>
 </head>
 <body>
-<h1>The 2017 Scotland Trip</h1>
-<h2>To Scotland - Sorn and Invarary</h2>
-<h3>Friday 12 May - Drive to Sorn</h3>
+<h1 id="the-2017-scotland-trip">The 2017 Scotland Trip</h1>
+<p>Helpful websites</p>
 <ul>
-<li>Journey: <a href="https://www.google.co.uk/maps/dir/Sorn+Inn,+35+Main+St,+Sorn,+Mauchline+KA5+6HU/BN11+4LL,+Boundary+Rd,+Worthing/@53.1092323,-6.4859641,6z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48882f56aa1e2b19:0x5ce55b585cb7fcfe!2m2!1d-4.2905171!2d55.5107889!1m5!1m1!1s0x4875a28cc6d2adb3:0x85f881ef56c75346!2m2!1d-0.3894485!2d50.8101466!3e0">450 miles, at least 8 hours</a></li>
-<li>Overnight <a href="http://sorninn.com">The Sorn Inn</a></li>
-<li>Dinner <a href="http://sorninn.com">The Sorn Inn</a>, booked by email, not confirmed</li>
-<li>Stops - none planned</li>
-<li>Walks - none planned</li>
-</ul>
-<h3>Saturday 13 May - Drive from Sorn to Invarary</h3>
+<li><a href="https://www.visitscotland.com/">Visit Scotland</a> abbreviated VS</li><li><a href="">Undiscovered Scotland</a> abbreivated US</li><li><a href="https://www.historicenvironment.scot/">Historic Scotland</a> abbreviated HS. Is this like Engish Heritage?</li><li><a href="http://www.nts.org.uk/Home/">National Trust for Scotland</a> abbreviated NTS</li></ul>
+<p>Helpful books</p>
 <ul>
-<li>Journey option 1, <a href="https://www.google.co.uk/maps/dir/Sorn+Inn,+35+Main+St,+Sorn,+Mauchline+KA5+6HU/George+Hotel,+Main+Street+East,+Inveraray/@55.890312,-5.0030756,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48882f56aa1e2b19:0x5ce55b585cb7fcfe!2m2!1d-4.2905171!2d55.5107889!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!3e0">direct</a> (90 miles, 2 hours).</li>
-<li>Journey option 2, <a href="https://www.google.co.uk/maps/dir/Sorn+Inn,+35+Main+St,+Sorn,+Mauchline+KA5+6HU/Kilchurn+castle+car+park,+A85,+Dalmally/George+Hotel,+Main+Street+East,+Inveraray/@55.9777749,-5.246623,9z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x48882f56aa1e2b19:0x5ce55b585cb7fcfe!2m2!1d-4.2905171!2d55.5107889!1m5!1m1!1s0x4889168ef5819ac1:0xb40bda035e0e9efa!2m2!1d-5.0182226!2d56.407086!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!3e0">via Kilchurn Castle</a> ( 120 miles, 3 hours).</li>
-<li>Overnight <a href="http://www.thegeorgehotel.co.uk">The George Inn</a>, room 16 booked by phone</li>
-<li>Dinner <a href="http://www.thegeorgehotel.co.uk">The George Inn</a>, call to reserve a table if arriving after 17:00</li>
-<li>Dinner alternative <a href="http://samphireseafood.com/">Samphire Invarary</a> (795) for dinner 13th?</li>
-<li>Sights: <a href="http://www.scotlandinfo.eu/rest-and-be-thankful-on-the-a83/">Rest and be thankful (1641)</a></li>
-<li>Walks: Invarary Castle estate</li>
-</ul>
-<h3>Sunday 14 May - Drive from Invarary to Oban</h3>
+<li><a href="https://www.harpercollins.co.uk/9780007559343/scotland-the-best">Scotland the Best, Peter Irving</a> - the numbers in brackets are links to the book</li><li><a href="https://www.harpercollins.co.uk/9780007559374/scotland-the-best-100-places">Scotland the Best - 100 places</a> - from the library</li></ul>
+<h4 id="to-do-list">To do list</h4>
+<p>  [ ] Book Samphire restaurant for the 13th<br>  [ ] Book the wildlife trip from Iona</p>
+<h2 id="to-scotland-sorn-and-invarary">To Scotland - Sorn and Invarary</h2>
+<h3 id="friday-12-may-drive-to-sorn">Friday 12 May - Drive to Sorn</h3>
 <ul>
-<li>Journey, option 1 <a href="https://www.google.co.uk/maps/dir/George+Hotel,+Main+Street+East,+Inveraray/Alltavona+House,+Corran+Esplanade,+Oban+PA34+5AQ/@56.3448102,-5.3875457,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!1m5!1m1!1s0x4889677357a99e41:0xce3a230d2e0d3bd1!2m2!1d-5.4823198!2d56.4214632!3e0">via Kilchurn Castle and Loch Etive</a> (40 miles 1 hour).</li>
-<li>Journey, option 2 <a href="https://www.google.co.uk/maps/dir/George+Hotel,+Main+Street+East,+Inveraray/Kilmartin/Alltavona+House,+Corran+Esplanade,+Oban+PA34+5AQ/@56.2163636,-5.5928433,10z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!1m5!1m1!1s0x48897ece25f7fb71:0x1e5f136b13cfbce8!2m2!1d-5.484349!2d56.135094!1m5!1m1!1s0x4889677357a99e41:0xce3a230d2e0d3bd1!2m2!1d-5.4823198!2d56.4214632!3e0">via Kilmartin</a> (65 miles, 1.5 hours) as suggested by the Lonely Planet book. See <a href="http://www.undiscoveredscotland.co.uk/ustours/oban-inveraray/index.html">here</a> for the journey options.</li>
-<li>Overnight <a href="http://alltavona.co.uk">Alltavona B&amp;B</a>, booked</li>
-<li>Dinner, lots of choice in Oban, they say. Especially seafood</li>
-<li>Sights: <a href="http://www.undiscoveredscotland.co.uk/lochawe/kilchurncastle/">Kilchurn Castle</a> (1784) or <a href="https://www.historicenvironment.scot/visit-a-place/places/kilchurn-castle/">here</a> and <a href="https://en.wikipedia.org/wiki/Kilchurn_Castle">wikipedia</a></li>
-<li>St Conans Kirk (1841)</li>
-<li>sights: <a href="http://www.dunollie.org/">Dunollie Castle</a> (1782) - Sights and woodland walks</li>
-<li>Sights: <a href="https://www.visitscotland.com/info/see-do/mccaigs-tower-p255141">McCaigs Tower</a> (or <a href="https://en.wikipedia.org/wiki/McCaig's_Tower">Folly</a>) (1837), Pulpit Hill.</li>
-<li>Sights: <a href="https://www.discovering-distilleries.com/oban/">Oban Distillery</a></li>
-</ul>
-<h2>To Mull and Iona</h2>
-<h4>Note - This <a href="https://www.calmac.co.uk/article/2659/Hopscotch-21-Mull--Ardnamurchan">Mull Ardnamuchan hopscotch ticket, summer version</a> might be the thing</h4>
+<li>Journey: <a href="https://www.google.co.uk/maps/dir/Sorn+Inn,+35+Main+St,+Sorn,+Mauchline+KA5+6HU/BN11+4LL,+Boundary+Rd,+Worthing/@53.1092323,-6.4859641,6z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48882f56aa1e2b19:0x5ce55b585cb7fcfe!2m2!1d-4.2905171!2d55.5107889!1m5!1m1!1s0x4875a28cc6d2adb3:0x85f881ef56c75346!2m2!1d-0.3894485!2d50.8101466!3e0">450 miles, at least 8 hours</a></li><li>Overnight <a href="http://sorninn.com">The Sorn Inn</a></li><li>Dinner <a href="http://sorninn.com">The Sorn Inn</a>, booked by email, not confirmed</li><li>Stops - none planned</li><li>Walks - none planned</li></ul>
+<h3 id="saturday-13-may-drive-from-sorn-to-invarary">Saturday 13 May - Drive from Sorn to Invarary</h3>
+<ul>
+<li>Journey option 1, <a href="https://www.google.co.uk/maps/dir/Sorn+Inn,+35+Main+St,+Sorn,+Mauchline+KA5+6HU/George+Hotel,+Main+Street+East,+Inveraray/@55.890312,-5.0030756,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48882f56aa1e2b19:0x5ce55b585cb7fcfe!2m2!1d-4.2905171!2d55.5107889!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!3e0">direct</a> (90 miles, 2 hours).</li><li>Overnight <a href="http://www.thegeorgehotel.co.uk">The George Inn</a>, room 16 booked by phone</li><li>Dinner <a href="http://www.thegeorgehotel.co.uk">The George Inn</a>, call to reserve a table if arriving after 17:00</li><li>Dinner alternative <a href="http://samphireseafood.com/">Samphire Invarary</a> (795) for dinner 13th?</li><li>Sights: <a href="http://www.scotlandinfo.eu/rest-and-be-thankful-on-the-a83/">Rest and be thankful (1641)</a></li><li>Walks: Invarary Castle estate</li></ul>
+<h3 id="sunday-14-may-drive-from-invarary-to-oban">Sunday 14 May - Drive from Invarary to Oban</h3>
+<ul>
+<li>Journey, option 1 <a href="https://www.google.co.uk/maps/dir/George+Hotel,+Main+Street+East,+Inveraray/Alltavona+House,+Corran+Esplanade,+Oban+PA34+5AQ/@56.3448102,-5.3875457,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48890cfe8f77e985:0xd91d1340fdb81cee!2m2!1d-5.0726322!2d56.2303147!1m5!1m1!1s0x4889677357a99e41:0xce3a230d2e0d3bd1!2m2!1d-5.4823198!2d56.4214632!3e0">via Kilchurn Castle and Loch Etive</a> (40 miles 1 hour).</li><li>Overnight <a href="http://alltavona.co.uk">Alltavona B&amp;B</a>, booked</li><li><p>Dinner, lots of choice in Oban, they say. Especially seafood</p>
+<p>The route goes round the top of Loch Awe, stopping for a walk to Kilchurn Caslte, St Conan&#39;s Kirk</p>
+</li><li>Sights: <a href="http://www.undiscoveredscotland.co.uk/lochawe/kilchurncastle/">Kilchurn Castle</a> (1784) or <a href="https://www.historicenvironment.scot/visit-a-place/places/kilchurn-castle/">here</a> and <a href="https://en.wikipedia.org/wiki/Kilchurn_Castle">wikipedia</a></li><li>Walk: <a href="https://www.walkhighlands.co.uk/argyll/kilchurn-castle.shtml">Kilchurn Caslte</a>(1 mile, easy)</li><li>Sight: <a href="https://www.visitscotland.com/info/see-do/st-conans-kirk-p995981">St Conans Kirk</a> (1841)</li><li>sights: <a href="http://www.dunollie.org/">Dunollie Castle</a> (1782) - Sights and woodland walks</li><li>Sights: <a href="https://www.visitscotland.com/info/see-do/mccaigs-tower-p255141">McCaigs Tower</a> (or <a href="https://en.wikipedia.org/wiki/McCaig&#39;s_Tower">Folly</a>) (1837), Pulpit Hill.</li><li>Sights: <a href="https://www.discovering-distilleries.com/oban/">Oban Distillery</a></li></ul>
+<h2 id="to-mull-and-iona">To Mull and Iona</h2>
+<h4 id="note-this-mull-ardnamuchan-hopscotch-ticket-summer-version-https-www-calmac-co-uk-article-2659-hopscotch-21-mull-ardnamurchan-might-be-the-thing">Note - This <a href="https://www.calmac.co.uk/article/2659/Hopscotch-21-Mull--Ardnamurchan">Mull Ardnamuchan hopscotch ticket, summer version</a> might be the thing</h4>
 <p>Plenty of <a href="https://www.walkhighlands.co.uk/mull/">walks</a> here.</p>
-<h3>Monday 15 May - Ferry to Craignure, Drive to Fionphort, Ferry to <a href="http://www.welcometoiona.com/">Iona</a></h3>
+<p><a href="http://www.isle-of-mull.net/">Mull and Iona Tourist Info</a><br>Iona Abbey</p>
+<h3 id="monday-15-may-ferry-to-craignure-drive-to-fionphort-ferry-to-iona-http-www-welcometoiona-com-">Monday 15 May - Ferry to Craignure, Drive to Fionphort, Ferry to <a href="http://www.welcometoiona.com/">Iona</a></h3>
 <ul>
-<li>Journey: Ferry, 40 miles, leave the car, ferry</li>
-<li>Ferry 1: <a href="https://www.calmac.co.uk/oban-craignure-mull-ferry-summer-timetable">Oban Craignure Ferry</a>, <a href="https://www.argyll-bute.gov.uk/oban-craignure-ferry-timetable">timetable</a></li>
-<li>Ferry 2: The turn up and go <a href="https://www.calmac.co.uk/fionnphort-iona-iona-ferry-summer-timetable">Fiophort Iona Ferry</a>, <a href="https://www.argyll-bute.gov.uk/fionnphort-iona-ferry-timetable">timetable link</a></li>
-<li>Overnight <a href="http://argyllhoteliona.co.uk">The Argyll Hotel (1174)</a>, booked throught the web, apparently direct to the hotel</li>
-<li>Dinner The Argyll? Booking recommended</li>
-<li>Stops Carsaig (2213)</li>
-<li>Walk: <a href="https://www.walkhighlands.co.uk/mull/kilvickeon.shtml">kilvickeon - easy one hour</a></li>
-<li>Walk: <a href="https://www.walkhighlands.co.uk/mull/fionnphort.shtml">tormmore pier - easy 90 minutes</a></li>
-<li>Sights: <a href="https://www.historicenvironment.scot/visit-a-place/places/iona-abbey-and-nunnery/">Iona Abbey</a> and <a href="https://en.wikipedia.org/wiki/Iona_Abbey">wikipedia</a> and <a href="http://www.undiscoveredscotland.co.uk/iona/abbey/">Undiscovered Scotland</a>. </li>
-<li>Walks <a href="https://www.walkhighlands.co.uk/mull/iona-north.shtml">iona-north</a> one boot, five miles, two hours (after the abbey)</li>
-</ul>
-<h3>Tuesday 16 May - Stay in Iona</h3>
+<li>Journey: Ferry, 40 miles, leave the car, ferry</li><li>Ferry 1: <a href="https://www.calmac.co.uk/oban-craignure-mull-ferry-summer-timetable">Oban Craignure Ferry</a>, <a href="https://www.argyll-bute.gov.uk/oban-craignure-ferry-timetable">timetable</a></li><li>Ferry 2: The turn up and go <a href="https://www.calmac.co.uk/fionnphort-iona-iona-ferry-summer-timetable">Fiophort Iona Ferry</a>, <a href="https://www.argyll-bute.gov.uk/fionnphort-iona-ferry-timetable">timetable link</a></li><li>Overnight <a href="http://argyllhoteliona.co.uk">The Argyll Hotel (1174)</a>, booked throught the web, apparently direct to the hotel</li><li><p>Dinner The Argyll? Booking recommended</p>
+<p>Stop at Carsaig (2213), the start of two long recommended walks to <a href=""></a> and <a href=""></a>. </p>
+<p>Two walks near Fionphort, if we have time to spare: </p>
+</li><li>Walk: <a href="https://www.walkhighlands.co.uk/mull/kilvickeon.shtml">kilvickeon - easy one hour</a></li><li><p>Walk: <a href="https://www.walkhighlands.co.uk/mull/fionnphort.shtml">tormmore pier - easy 90 minutes</a></p>
+<p>Question - who do we have to pay to visit Iona?</p>
+<p>Does Iona belongs to the <a href="http://www.nts.org.uk/Property/Iona/">National Trust for Scotland</a>? What about<br>Some background to Iona from </p>
+</li><li>Sights: <a href="https://www.historicenvironment.scot/visit-a-place/places/iona-abbey-and-nunnery/">HS</a> and <a href="https://en.wikipedia.org/wiki/Iona_Abbey">wikipedia</a> and <a href="http://www.undiscoveredscotland.co.uk/iona/abbey/">US</a>. </li><li>Walks <a href="https://www.walkhighlands.co.uk/mull/iona-north.shtml">iona-north</a> one boot, five miles, two hours (after the abbey)</li></ul>
+<h3 id="tuesday-16-may-stay-in-iona">Tuesday 16 May - Stay in Iona</h3>
 <ul>
-<li>Overnight <a href="http://argyllhoteliona.co.uk">The Argyll Hotel</a>, booked throught the web, apparently direct to the hotel</li>
-<li>Dinner The Argyll? Booking recommended</li>
-<li>Trip: <a href="http://www.staffatours.com/boat-tours/departs-fionnphort-mull-and-iona/staffa-treshnish-isles-wildlife-tour/">The Wildlife Tour to Staffa and Lunga</a></li>
-<li>Walks <a href="https://www.walkhighlands.co.uk/mull/iona-south.shtml">iona-south</a> two boots, five miles, 3 hours, and going to the Bay at the back of the ocean (1581).</li>
-</ul>
-<h3>Wedneday  17 May - Iona to <a href="http://www.isle-of-mull.net/locations/villages/dervaig/">Dervaig</a> on Mull (and <a href="http://www.undiscoveredscotland.co.uk/mull/dervaig/">her</a>)</h3>
+<li>Overnight <a href="http://argyllhoteliona.co.uk">The Argyll Hotel</a>, booked throught the web, apparently direct to the hotel</li><li><p>Dinner The Argyll? Booking recommended</p>
+<p>From Iona, we have <a href="http://www.staffatours.com/boat-tours/departs-fionnphort-mull-and-iona/staffa-treshnish-isles-wildlife-tour/">the Wildlife Tour to Staffa and Lunga</a> to Staffa (<a href="http://www.nts.org.uk/Property/Staffa-National-Nature-Reserve/">NTS</a>) and Lunga <a href="https://en.wikipedia.org/wiki/Lunga,_Treshnish_Isles">wikipedia</a>.<br>After the boat trip, a walk?  <a href="https://www.walkhighlands.co.uk/mull/iona-south.shtml">iona-south</a> two boots, five miles, 3 hours, and going to the Bay at the back of the ocean (1581).</p>
+</li></ul>
+<h3 id="wedneday-17-may-iona-to-dervaig-http-www-isle-of-mull-net-locations-villages-dervaig-on-mull-and-her-http-www-undiscoveredscotland-co-uk-mull-dervaig-">Wedneday  17 May - Iona to <a href="http://www.isle-of-mull.net/locations/villages/dervaig/">Dervaig</a> on Mull (and <a href="http://www.undiscoveredscotland.co.uk/mull/dervaig/">her</a>)</h3>
 <ul>
-<li>Journey: <a href="https://www.google.co.uk/maps/dir/Fionnphort+Car+Park/Dervaig/Duart+Castle,+Isle+of+Mull+PA64+6AP/@56.4508479,-6.2897827,10z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x488bbcb0e7fd95af:0x647d0b1d23937094!2m2!1d-6.3655073!2d56.3240597!1m5!1m1!1s0x488bf2aa75be1881:0xd29bb8ab37d5c547!2m2!1d-6.1851779!2d56.588386!1m5!1m1!1s0x488be00c6de9aaab:0x1d2b51bbc3088c26!2m2!1d-5.6551997!2d56.4561763!3e0">via Duart Castle</a> </li>
-<li>Ferry to Fiophort, recover the car, 50/60 miles, 2 hours</li>
-<li>Ferry: The turn up and go <a href="https://www.calmac.co.uk/fionnphort-iona-iona-ferry-summer-timetable">Fiophort Iona Ferry</a>, <a href="https://www.argyll-bute.gov.uk/fionnphort-iona-ferry-timetable">timetable link</a></li>
-<li>Overnight <a href="http://www.thebellachroy.co.uk">The Bellacroy Hotel</a></li>
-<li>Dinner at the Bellacroy? Not booked.</li>
-<li>Stops Waterfall (1600)</li>
-<li>Sights - <a href="http://www.duartcastle.com/">Duart Castle</a> (1762), good teas!</li>
-</ul>
-<h3>Thurday 18 May - Stay at the Bellacroy in Dervaig</h3>
+<li>Journey: <a href="https://www.google.co.uk/maps/dir/Fionnphort+Car+Park/Dervaig/Duart+Castle,+Isle+of+Mull+PA64+6AP/@56.4508479,-6.2897827,10z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x488bbcb0e7fd95af:0x647d0b1d23937094!2m2!1d-6.3655073!2d56.3240597!1m5!1m1!1s0x488bf2aa75be1881:0xd29bb8ab37d5c547!2m2!1d-6.1851779!2d56.588386!1m5!1m1!1s0x488be00c6de9aaab:0x1d2b51bbc3088c26!2m2!1d-5.6551997!2d56.4561763!3e0">via Duart Castle</a> </li><li>Ferry to Fiophort, recover the car, 50/60 miles, 2 hours</li><li>Ferry: The turn up and go <a href="https://www.calmac.co.uk/fionnphort-iona-iona-ferry-summer-timetable">Fiophort Iona Ferry</a>, <a href="https://www.argyll-bute.gov.uk/fionnphort-iona-ferry-timetable">timetable link</a></li><li>Overnight <a href="http://www.thebellachroy.co.uk">The Bellacroy Hotel</a></li><li>Dinner at the Bellacroy? Not booked.</li><li>Stops Waterfall (1600)</li><li>Sights - <a href="http://www.duartcastle.com/">Duart Castle</a> (1762), good teas!</li></ul>
+<h3 id="thurday-18-may-stay-at-the-bellacroy-in-dervaig">Thurday 18 May - Stay at the Bellacroy in Dervaig</h3>
 <ul>
-<li>Overnight <a href="http://www.thebellachroy.co.uk">The Bellacroy Hotel</a></li>
-<li>Dinner at the Bellacroy? Not booked.</li>
-<li>Sights</li>
-</ul>
-<h3>Friday 19 May - Derviag to <a href="http://www.tobermory.co.uk/">Tobermory</a></h3>
+<li>Overnight <a href="http://www.thebellachroy.co.uk">The Bellacroy Hotel</a></li><li>Dinner at the Bellacroy? Not booked.</li><li>Sights</li></ul>
+<h3 id="friday-19-may-derviag-to-tobermory-http-www-tobermory-co-uk-">Friday 19 May - Derviag to <a href="http://www.tobermory.co.uk/">Tobermory</a></h3>
 <ul>
-<li>Journey: </li>
-<li>Overnight <a href="http://www.highlandcottage.co.uk">The Highland Cottage</a></li>
-<li>Dinner TBD</li>
-<li>Stops</li>
-<li>Sights</li>
-<li>Walks - Glengorm Estate (2214)</li>
-</ul>
-<h3>Saturday 20 May - Stay in Tobermory</h3>
+<li>Journey: </li><li>Overnight <a href="http://www.highlandcottage.co.uk">The Highland Cottage</a></li><li>Dinner TBD</li><li>Stops</li><li>Sights</li><li>Walks - Glengorm Estate (2214)</li></ul>
+<h3 id="saturday-20-may-stay-in-tobermory">Saturday 20 May - Stay in Tobermory</h3>
 <ul>
-<li>Overnight <a href="http://www.highlandcottage.co.uk">The Highland Cottage</a></li>
-<li>Dinner TBD</li>
-<li>Stops</li>
-<li>Sights</li>
-<li>Walks</li>
-</ul>
-<h2>To the Ardnamurchan Peninsula</h2>
-<p>The Ardnamurchan peninsula is explored in the <a href="http://www.undiscoveredscotland.co.uk/ustours/fortwilliam-ardnamurchan/index.html">Undiscovered Scotland Fort William and Ardnamuchan tour Tour</a>
-There are plenty of <a href="https://www.walkhighlands.co.uk/fortwilliam/ardnamurchan.shtml">walks</a> on the peninsula.</p>
-<h3>Sunday 21 May - Tobermory to <a href="http://www.undiscoveredscotland.co.uk/strontian/strontian/index.html">Strontian</a> via <a href="http://www.undiscoveredscotland.co.uk/kilchoan/kilchoan/index.html">Kilchoan</a> with <a href="http://www.undiscoveredscotland.co.uk/kilchoan/ardnamurchanpoint/index.html">Ardnamuchan Point</a> and <a href="http://www.undiscoveredscotland.co.uk/kilchoan/sanna/index.html">Sanna Beach</a></h3>
+<li>Overnight <a href="http://www.highlandcottage.co.uk">The Highland Cottage</a></li><li>Dinner TBD</li><li>Stops</li><li>Sights</li><li>Walks</li></ul>
+<h2 id="to-the-ardnamurchan-peninsula">To the Ardnamurchan Peninsula</h2>
+<p>The Ardnamurchan peninsula is explored in the <a href="http://www.undiscoveredscotland.co.uk/ustours/fortwilliam-ardnamurchan/index.html">Undiscovered Scotland Fort William and Ardnamuchan tour Tour</a><br>There are plenty of <a href="https://www.walkhighlands.co.uk/fortwilliam/ardnamurchan.shtml">walks</a> on the peninsula.</p>
+<h3 id="sunday-21-may-tobermory-to-strontian-http-www-undiscoveredscotland-co-uk-strontian-strontian-index-html-via-kilchoan-http-www-undiscoveredscotland-co-uk-kilchoan-kilchoan-index-html-with-ardnamuchan-point-http-www-undiscoveredscotland-co-uk-kilchoan-ardnamurchanpoint-index-html-and-sanna-beach-http-www-undiscoveredscotland-co-uk-kilchoan-sanna-index-html-">Sunday 21 May - Tobermory to <a href="http://www.undiscoveredscotland.co.uk/strontian/strontian/index.html">Strontian</a> via <a href="http://www.undiscoveredscotland.co.uk/kilchoan/kilchoan/index.html">Kilchoan</a> with <a href="http://www.undiscoveredscotland.co.uk/kilchoan/ardnamurchanpoint/index.html">Ardnamuchan Point</a> and <a href="http://www.undiscoveredscotland.co.uk/kilchoan/sanna/index.html">Sanna Beach</a></h3>
 <ul>
-<li>Journey: ferry then 50 miles including excursions (in single track roads!)</li>
-<li>Ferry: Turn up and go <a href="http://www.undiscoveredscotland.co.uk/mull/tobermoryferry/index.html">Ferry</a> from <a href="https://www.calmac.co.uk/tobermory-kilchoan-ardnamurchan-mull-ferry-summer-timetable">Tobermory to Kilchon</a> and <a href="https://www.argyll-bute.gov.uk/tobermory-kilchoan-ferry-timetable">timetable link</a></li>
-<li>Overnight <a href="https://www.kilcamblodge.co.uk/">Kilcamb Lodge</a></li>
-<li>Dinner included at Kilcamb lodge</li>
-<li>Walk: <a href="http://www.undiscoveredscotland.co.uk/kilchoan/ardnamurchanpoint/index.html">Ardnamuchan Point (1740)</a> and we might see whales or dolphins, for <a href="https://www.walkhighlands.co.uk/fortwilliam/ardnamurchanpoint.shtml">4 mile med circular walk</a></li>
-<li>Walk: <a href="http://www.undiscoveredscotland.co.uk/kilchoan/sanna/index.html">Sanna Beach</a>, <a href="https://www.walkhighlands.co.uk/fortwilliam/singingsands.shtml">6 mile easy walk</a></li>
-<li>Signts: Ardnamuchan lighthouse</li>
-<li>Stop: a <a href="https://www.walkhighlands.co.uk/fortwilliam/ardairigh.shtml">1.5 mile walk to the loch for otters</a></li>
-<li>Stop for a view: <a href="http://www.wildlochaber.com/ardnamurchan/walking/camas-nan-geall">Camas Nan Geall</a> or <a href="https://canmore.org.uk/site/22350/camas-nan-geall-cladh-chiarain">here</a>, where there is a <a href="https://www.walkhighlands.co.uk/fortwilliam/camasnangeall.shtml">3 mile walk</a></li>
-</ul>
-<h3>Monday 22 May - Overnight at the Kilcamb Lodge</h3>
+<li>Journey: ferry then 50 miles including excursions (in single track roads!)</li><li>Ferry: Turn up and go <a href="http://www.undiscoveredscotland.co.uk/mull/tobermoryferry/index.html">Ferry</a> from <a href="https://www.calmac.co.uk/tobermory-kilchoan-ardnamurchan-mull-ferry-summer-timetable">Tobermory to Kilchon</a> and <a href="https://www.argyll-bute.gov.uk/tobermory-kilchoan-ferry-timetable">timetable link</a></li><li>Overnight <a href="https://www.kilcamblodge.co.uk/">Kilcamb Lodge</a></li><li>Dinner included at Kilcamb lodge</li><li>Walk: <a href="http://www.undiscoveredscotland.co.uk/kilchoan/ardnamurchanpoint/index.html">Ardnamuchan Point (1740)</a> and we might see whales or dolphins, for <a href="https://www.walkhighlands.co.uk/fortwilliam/ardnamurchanpoint.shtml">4 mile med circular walk</a></li><li>Walk: <a href="http://www.undiscoveredscotland.co.uk/kilchoan/sanna/index.html">Sanna Beach</a>, <a href="https://www.walkhighlands.co.uk/fortwilliam/singingsands.shtml">6 mile easy walk</a></li><li>Signts: Ardnamuchan lighthouse</li><li>Stop: a <a href="https://www.walkhighlands.co.uk/fortwilliam/ardairigh.shtml">1.5 mile walk to the loch for otters</a></li><li>Stop for a view: <a href="http://www.wildlochaber.com/ardnamurchan/walking/camas-nan-geall">Camas Nan Geall</a> or <a href="https://canmore.org.uk/site/22350/camas-nan-geall-cladh-chiarain">here</a>, where there is a <a href="https://www.walkhighlands.co.uk/fortwilliam/camasnangeall.shtml">3 mile walk</a></li></ul>
+<h3 id="monday-22-may-overnight-at-the-kilcamb-lodge">Monday 22 May - Overnight at the Kilcamb Lodge</h3>
 <ul>
-<li>Overnight <a href="https://www.kilcamblodge.co.uk/">Kilcamb Lodge</a></li>
-<li>Dinner included at Kilcamb lodge</li>
-<li>Walks: The <a href="http://www.wildlochaber.com/ardnamurchan/walking/kentra-bay-and-singing-sands">singing sands (2028)</a>, reached by <a href="https://www.walkhighlands.co.uk/fortwilliam/singingsands.shtml">a six mile walk</a></li>
-<li>Walk or sight: <a href="http://www.undiscoveredscotland.co.uk/acharacle/castletioram/index.html">Castle Tioram (1775)</a>, <a href="https://www.walkhighlands.co.uk/fortwilliam/castletioram.shtml">harder 4 mile circular walk</a> or <a href="https://www.walkhighlands.co.uk/fortwilliam/silver-walk.shtml">easier there and back 7 mile walk</a></li>
-<li>Walks: An Ardnamuchan woodland walk (Ariundle woods (2007), a <a href="https://www.walkhighlands.co.uk/fortwilliam/ariundle-oakwoods.shtml">3 mile easy walk</a> or <a href="https://www.walkhighlands.co.uk/maps/map3_14fw.shtml">6 mile extended version</a></li>
-<li>stop: A <a href="https://www.walkhighlands.co.uk/fortwilliam/saileannancuileag.shtml">half mile easy woods walk</a> or a <a href="https://www.walkhighlands.co.uk/fortwilliam/salen.shtml">one mile alternative</a></li>
-</ul>
-<h2>To the Trossacks Near Callander and Balquidder</h2>
-<h3>Tuesday 23 May - Stronian to Balquidder</h3>
+<li>Overnight <a href="https://www.kilcamblodge.co.uk/">Kilcamb Lodge</a></li><li>Dinner included at Kilcamb lodge</li><li>Walks: The <a href="http://www.wildlochaber.com/ardnamurchan/walking/kentra-bay-and-singing-sands">singing sands (2028)</a>, reached by <a href="https://www.walkhighlands.co.uk/fortwilliam/singingsands.shtml">a six mile walk</a></li><li>Walk or sight: <a href="http://www.undiscoveredscotland.co.uk/acharacle/castletioram/index.html">Castle Tioram (1775)</a>, <a href="https://www.walkhighlands.co.uk/fortwilliam/castletioram.shtml">harder 4 mile circular walk</a> or <a href="https://www.walkhighlands.co.uk/fortwilliam/silver-walk.shtml">easier there and back 7 mile walk</a></li><li>Walks: An Ardnamuchan woodland walk (Ariundle woods (2007), a <a href="https://www.walkhighlands.co.uk/fortwilliam/ariundle-oakwoods.shtml">3 mile easy walk</a> or <a href="https://www.walkhighlands.co.uk/maps/map3_14fw.shtml">6 mile extended version</a></li><li>stop: A <a href="https://www.walkhighlands.co.uk/fortwilliam/saileannancuileag.shtml">half mile easy woods walk</a> or a <a href="https://www.walkhighlands.co.uk/fortwilliam/salen.shtml">one mile alternative</a></li></ul>
+<h2 id="to-the-trossacks-near-callander-and-balquidder">To the Trossacks Near Callander and Balquidder</h2>
+<h3 id="tuesday-23-may-stronian-to-balquidder">Tuesday 23 May - Stronian to Balquidder</h3>
 <ul>
-<li>Journey: Drive, ferry, drive 80 miles, 2 hours</li>
-<li>[This Fort William and Ardnamuchan tour](http://www.undiscoveredscotland.co.uk/ustours/</li>
-<li>-glencoe/index.html) includes the journey.</li>
-<li>Ferry: Turn up and go <a href="https://www.calmac.co.uk/article/3124/Corran-Ferry">Corran Ferry</a> from Ardgour to Nether Lochaber <a href="https://www.argyll-bute.gov.uk/corran-ferry-timetable">timetable link</a>. More about the <a href="http://www.undiscoveredscotland.co.uk/corran/corranferry/index.html">Corran Ferry</a></li>
-<li>Overnight at <a href="http://mhor.net/mhor-84-motel/">Mhor 84</a></li>
-<li>Dinner at the hotel or ....</li>
-<li>Stops</li>
-<li>Sights</li>
-<li>Walks </li>
-</ul>
-<p><a href="http://www.undiscoveredscotland.co.uk/ustours/pitlochry-rannoch/index.html">Undiscovered Scotland Tour near Balquidder</a>
-<a href="https://www.walkhighlands.co.uk/lochlomond/">Walk Highands walks in the Trossocks</a>
-<a href="https://www.walkhighlands.co.uk/lochlomond/trossachs.shtml">Walks based in Callander</a>
-<a href="https://www.walkhighlands.co.uk/lochlomond/strathyre-lochearnhead.shtml">Walks north of Balquidder</a></p>
+<li>Journey: Drive, ferry, drive 80 miles, 2 hours</li><li>[This Fort William and Ardnamuchan tour](<a href="http://www.undiscoveredscotland.co.uk/ustours/">http://www.undiscoveredscotland.co.uk/ustours/</a></li><li>-glencoe/index.html) includes the journey.</li><li>Ferry: Turn up and go <a href="https://www.calmac.co.uk/article/3124/Corran-Ferry">Corran Ferry</a> from Ardgour to Nether Lochaber <a href="https://www.argyll-bute.gov.uk/corran-ferry-timetable">timetable link</a>. More about the <a href="http://www.undiscoveredscotland.co.uk/corran/corranferry/index.html">Corran Ferry</a></li><li>Overnight at <a href="http://mhor.net/mhor-84-motel/">Mhor 84</a></li><li>Dinner at the hotel or ....</li><li>Stops</li><li>Sights</li><li>Walks </li></ul>
+<p><a href="http://www.undiscoveredscotland.co.uk/ustours/pitlochry-rannoch/index.html">Undiscovered Scotland Tour near Balquidder</a><br><a href="https://www.walkhighlands.co.uk/lochlomond/">Walk Highands walks in the Trossocks</a><br><a href="https://www.walkhighlands.co.uk/lochlomond/trossachs.shtml">Walks based in Callander</a><br><a href="https://www.walkhighlands.co.uk/lochlomond/strathyre-lochearnhead.shtml">Walks north of Balquidder</a></p>
 <p><a href="http://www.undiscoveredscotland.co.uk/callander/callander/index.html">Callander</a></p>
-<h3>Wednesday 24 May - Overnight at <a href="http://www.undiscoveredscotland.co.uk/balquhidder/balquhidder/index.html">Balquidder</a></h3>
+<h3 id="wednesday-24-may-overnight-at-balquidder-http-www-undiscoveredscotland-co-uk-balquhidder-balquhidder-index-html-">Wednesday 24 May - Overnight at <a href="http://www.undiscoveredscotland.co.uk/balquhidder/balquhidder/index.html">Balquidder</a></h3>
 <ul>
-<li>Overnight at <a href="http://mhor.net/mhor-84-motel/">Mhor 84</a></li>
-<li>Dinner at the hotel or ....</li>
-<li>Sights</li>
-<li>Walks: Glen Finglas (1981) </li>
-<li>Walks: <a href="https://www.walkhighlands.co.uk/lochlomond/arrochar.shtml">Here</a></li>
-</ul>
-<h3>Thursday 25 May - Overnight at Balquidder</h3>
+<li>Overnight at <a href="http://mhor.net/mhor-84-motel/">Mhor 84</a></li><li>Dinner at the hotel or ....</li><li>Sights</li><li>Walks: Glen Finglas (1981) </li><li>Walks: <a href="https://www.walkhighlands.co.uk/lochlomond/arrochar.shtml">Here</a></li></ul>
+<h3 id="thursday-25-may-overnight-at-balquidder">Thursday 25 May - Overnight at Balquidder</h3>
 <ul>
-<li>Overnight at <a href="http://mhor.net/mhor-84-motel/">Mhor 84</a></li>
-<li>Dinner at the hotel or ....</li>
-<li>Sights</li>
-<li>Walks</li>
-</ul>
-<h3>Friday 26 May - Home</h3>
+<li>Overnight at <a href="http://mhor.net/mhor-84-motel/">Mhor 84</a></li><li>Dinner at the hotel or ....</li><li>Sights</li><li>Walks</li></ul>
+<h3 id="friday-26-may-home">Friday 26 May - Home</h3>
 <ul>
-<li>Journey via the Falkirk wheel 520 miles, 9 hours</li>
-<li>Journey without the wheel, 510 miles, 8.5 hours</li>
-<li>Stops: <a href="https://www.scottishcanals.co.uk/falkirk-wheel/plan-your-visit/">The Falkirk Wheel</a></li>
-<li>Sights</li>
-<li>Walks</li>
-</ul>
-<h2>Things we will be near but not fitted in</h2>
+<li>Journey via the Falkirk wheel 520 miles, 9 hours</li><li>Journey without the wheel, 510 miles, 8.5 hours</li><li>Stops: <a href="https://www.scottishcanals.co.uk/falkirk-wheel/plan-your-visit/">The Falkirk Wheel</a></li><li>Sights</li><li>Walks</li></ul>
+<h2 id="things-we-will-be-near-but-not-fitted-in">Things we will be near but not fitted in</h2>
 <p><a href="http://www.thewhitehouserestaurant.co.uk/">The Whitehouse Restaurant</a></p>
-<p>23 May - stop at the clachaig inn, glen coe?
-From Mhor 84, Conic Hill (1940) and Inchcailloch Island (2008)</p>
+<p>23 May - stop at the clachaig inn, glen coe?<br>From Mhor 84, Conic Hill (1940) and Inchcailloch Island (2008)</p>
 
 </body>
 </html>

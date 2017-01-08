@@ -11,6 +11,10 @@ Helpful books
  - [Scotland the Best, Peter Irving](https://www.harpercollins.co.uk/9780007559343/scotland-the-best) - the numbers in brackets are links to the book
  - [Scotland the Best - 100 places](https://www.harpercollins.co.uk/9780007559374/scotland-the-best-100-places) - from the library
 
+#### To do list
+  [ ] Book Samphire restaurant for the 13th
+  [ ] Book the wildlife trip from Iona
+
 ## To Scotland - Sorn and Invarary 
 
 ### Friday 12 May - Drive to Sorn
