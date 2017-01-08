@@ -1,0 +1,207 @@
+/*
+ * MarkdownPad (http://markdownpad.com) let's you customize its output styles
+ * 
+ * This is the current style I use.
+ *
+ * HEAVILY based off the style of hashify.me: https://bitbucket.org/davidchambers/hashify.me/src/737c822316e7/hashify.css
+ */
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* -----------------------------------------
+   normalize.css
+----------------------------------------- */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+html,button,input,select,textarea{font-family:sans-serif}
+body{margin:0}
+a:focus{outline:thin dotted}
+a:hover,a:active{outline:0}
+h1{font-size:2em;margin:.67em 0}
+h2{font-size:1.5em;margin:.83em 0}
+h3{font-size:1.17em;margin:1em 0}
+h4{font-size:1em;margin:1.33em 0}
+h5{font-size:.83em;margin:1.67em 0}
+h6{font-size:.75em;margin:2.33em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+blockquote{margin:1em 40px}
+dfn{font-style:italic}
+mark{background:#ff0;color:#000}
+p,pre{margin:1em 0}
+pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:none}
+q:before,q:after{content:'';content:none}
+small{font-size:75%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+dl,menu,ol,ul{margin:1em 0}
+dd{margin:0 0 0 40px}
+menu,ol,ul{padding:0 0 0 40px}
+nav ul,nav ol{list-style:none;list-style-image:none}
+img{border:0;-ms-interpolation-mode:bicubic}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+form{margin:0}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0;white-space:normal;*margin-left:-7px}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}
+button,input{line-height:normal}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}
+button[disabled],input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+
+/* -----------------------------------------
+   Main styles
+----------------------------------------- */
+body {
+    margin: 0;
+    min-width: 900px;
+    min-height: 600px;
+    max-width: 36em;
+    padding: 1em 2em 2em 2.167em;
+    font: 24px/32px "Helvetica Neue", Helvetica, Arial, Helmet, Freesans, sans-serif;
+}
+body.dragging {
+    cursor: ew-resize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+body.dragging ::-moz-selection { background: 0 }
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: .67em;
+    -webkit-margin-after: .67em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: .83em;
+    -webkit-margin-after: .83em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    font-weight: bold;
+}
+h1 {
+    margin: 24px 0;
+    font-size: 48px;
+    line-height: 1;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 12px 0;
+    font-size: 24px;
+    line-height: 36px;
+}
+h2 {
+    margin-top: 24px;
+    font-size: 36px;
+}
+h3 {
+    margin-top: 24px;
+    font-size: 30px;
+}
+p {
+    display: block;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+tt,
+code,
+kbd,
+samp { font-family: monospace }
+ul,
+menu,
+dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px;
+}
+a { 
+    color: #00c;
+    text-decoration: none;
+}
+a:focus,
+a:hover { 
+    text-decoration: underline;
+    color: #333;
+    outline: 0;
+}
+img { max-width: 100% }
+h1+p>time:first-child:only-child { font-style: italic }
+hr {
+    margin: 18px 0 12px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+p,
+ol,
+ul { margin: 12px 0 }
+ul {
+    padding: 0;
+    list-style: disc outside;
+}
+li ol,
+li ul { margin: 0 }
+li li { margin-left: 32px }
+blockquote {
+    margin: 12px 0;
+    font-style: italic;
+    font-family: Georgia,serif;
+    color: #407;
+}
+blockquote em { font-style: normal }
+pre {
+    margin: 24px 0;
+    border: 1px solid #ccc;
+    padding: 1px;
+    white-space: pre-wrap;
+}
+pre>code {
+    display: block;
+    padding: 12px 18px;
+    font-size: 18px;
+    line-height: 24px;
+}
+code {
+    background: #eee;
+    padding: 0 .25em;
+    line-height: 1;
+}
+a:focus,
+a:hover {
+    color: #333;
+    outline: 0;
+}
+
+/* -----------------------------------------
+   Highlighting styles
+----------------------------------------- */
+::-moz-selection{background:#ff9;color:#222;text-shadow:none}
+::selection{background:#ff9;color:#222;text-shadow:none}
