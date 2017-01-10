@@ -33,8 +33,7 @@ In Our Time to listen to on the way up
 ## To Scotland - Sorn and Invarary 
 
 ### Friday 12 May - Drive to Sorn
- - Journey: [450 miles, at l
- - t 8 hours](https://www.google.co.uk/maps/dir/Sorn+Inn,+35+Main+St,+Sorn,+Mauchline+KA5+6HU/BN11+4LL,+Boundary+Rd,+Worthing/@53.1092323,-6.4859641,6z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48882f56aa1e2b19:0x5ce55b585cb7fcfe!2m2!1d-4.2905171!2d55.5107889!1m5!1m1!1s0x4875a28cc6d2adb3:0x85f881ef56c75346!2m2!1d-0.3894485!2d50.8101466!3e0)
+ - Journey: [450 miles, at least 8 hours](https://www.google.co.uk/maps/dir/Sorn+Inn,+35+Main+St,+Sorn,+Mauchline+KA5+6HU/BN11+4LL,+Boundary+Rd,+Worthing/@53.1092323,-6.4859641,6z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48882f56aa1e2b19:0x5ce55b585cb7fcfe!2m2!1d-4.2905171!2d55.5107889!1m5!1m1!1s0x4875a28cc6d2adb3:0x85f881ef56c75346!2m2!1d-0.3894485!2d50.8101466!3e0)
  - Overnight [The Sorn Inn](http://sorninn.com)
  - Dinner [The Sorn Inn](http://sorninn.com), booked by email, not confirmed
  - Stops - none planned
@@ -116,7 +115,8 @@ Some background to Iona from
  - Overnight at [the Bellacroy Hotel](http://www.thebellachroy.co.uk) and dinner at the Bellacroy? Not booked.
 
  - Walks on [Ulva](http://www.isle-of-mull.net/locations/islands-around-mull/ulva/) (more [information including the ferry](http://www.isleofulva.com/)) such as this [shore and woodland walk](https://www.walkhighlands.co.uk/mull/ulva-shore.shtml) (4 miles, 2-3 hours) at Ulva Ferry. Good cafe at the ferry. [All the walks](https://www.walkhighlands.co.uk/mull/isle-of-ulva.shtml). 
- - Walks at [Calgary Beach](http://www.isle-of-mull.net/attractions/scenic-attractions/calgary-bay/) also [US](http://www.undiscoveredscotland.co.uk/mull/calgary/) and [The Independent](http://www.independent.co.uk/travel/uk/cool-place-of-the-day-calgary-bay-isle-of-mull-a6985611.html). Calgary has a [scultpure walkand]() and various [longer walks](https://www.walkhighlands.co.uk/mull/tobermory.shtml) walks at the bays not to be missed. Calgary beach is [13 minutes from Dervaig](https://www.google.co.uk/maps/dir/Fionnphort+Car+Park/Ulva/Dervaig/@56.4512743,-6.3113559,11z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x488bbcb0e7fd95af:0x647d0b1d23937094!2m2!1d-6.3655073!2d56.3240597!1m5!1m1!1s0x488b948a1ff3d0fb:0x7fb38b521aae1dd5!2m2!1d-6.2049471!2d56.4797423!1m5!1m1!1s0x488bf2aa75be1881:0xd29bb8ab37d5c547!2m2!1d-6.1851779!2d56.588386!3e0). StB likes [Eas Fors Waterfall](http://www.isle-of-mull.net/attractions/scenic-attractions/eas-fors-waterfall/) (1600) 
+ - Walks at [Calgary Beach](http://www.isle-of-mull.net/attractions/scenic-attractions/calgary-bay/) al
+ - so [US](http://www.undiscoveredscotland.co.uk/mull/calgary/) and [The Independent](http://www.independent.co.uk/travel/uk/cool-place-of-the-day-calgary-bay-isle-of-mull-a6985611.html). Calgary has a [scultpure walkand]() and various [longer walks](https://www.walkhighlands.co.uk/mull/tobermory.shtml) walks at the bays not to be missed. Calgary beach is [13 minutes from Dervaig](https://www.google.co.uk/maps/dir/Fionnphort+Car+Park/Ulva/Dervaig/@56.4512743,-6.3113559,11z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x488bbcb0e7fd95af:0x647d0b1d23937094!2m2!1d-6.3655073!2d56.3240597!1m5!1m1!1s0x488b948a1ff3d0fb:0x7fb38b521aae1dd5!2m2!1d-6.2049471!2d56.4797423!1m5!1m1!1s0x488bf2aa75be1881:0xd29bb8ab37d5c547!2m2!1d-6.1851779!2d56.588386!3e0). StB likes [Eas Fors Waterfall](http://www.isle-of-mull.net/attractions/scenic-attractions/eas-fors-waterfall/) (1600) 
  - Sights - [Duart Castle](http://www.duartcastle.com/) (1762), good teas!
 
 
