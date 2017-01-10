@@ -64,7 +64,7 @@ In Our Time to listen to on the way up
  
 The route goes round the top of Loch Awe, stopping for a walk to Kilchurn Caslte, St Conan's Kirk
  - Sights: [Kilchurn Castle](http://www.undiscoveredscotland.co.uk/lochawe/kilchurncastle/) (1784) or [here](https://www.historicenvironment.scot/visit-a-place/places/kilchurn-castle/) and [wikipedia](https://en.wikipedia.org/wiki/Kilchurn_Castle)
- - Walk: [Kilchurn Caslte](https://www.walkhighlands.co.uk/argyll/kilchurn-castle.shtml)(1 mile, easy)
+ - Walk: [Kilchurn Castle](https://www.walkhighlands.co.uk/argyll/kilchurn-castle.shtml)(1 mile, easy)
  - Sight: [St Conans Kirk](https://www.visitscotland.com/info/see-do/st-conans-kirk-p995981) (1841)
  - Garden: [Angus's Garden](), at Taynuilt, <136> on the Glen Lonan unclassified road, the "picturesque back road to Oban".
  - Walk: Taynault is close to the shore of Loch Etive. Great walking in Lochaweshdie woodlands, eg Glen Nant Woods south on B845.
@@ -113,14 +113,11 @@ Some background to Iona from
  After the boat trip, a walk?  [iona-south](https://www.walkhighlands.co.uk/mull/iona-south.shtml) two boots, five miles, 3 hours, and going to the Bay at the back of the ocean (1581).
 
 ### Wedneday  17 May - Iona to [Dervaig](http://www.isle-of-mull.net/locations/villages/dervaig/) on Mull (and [her](http://www.undiscoveredscotland.co.uk/mull/dervaig/))
- - Journey: [via Duart Castle](https://www.google.co.uk/maps/dir/Fionnphort+Car+Park/Dervaig/Duart+Castle,+Isle+of+Mull+PA64+6AP/@56.4508479,-6.2897827,10z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x488bbcb0e7fd95af:0x647d0b1d23937094!2m2!1d-6.3655073!2d56.3240597!1m5!1m1!1s0x488bf2aa75be1881:0xd29bb8ab37d5c547!2m2!1d-6.1851779!2d56.588386!1m5!1m1!1s0x488be00c6de9aaab:0x1d2b51bbc3088c26!2m2!1d-5.6551997!2d56.4561763!3e0) 
- - Ferry to Fiophort, recover the car, 50/60 miles, 2 hours
- - Ferry: The turn up and go [Fiophort Iona Ferry](https://www.calmac.co.uk/fionnphort-iona-iona-ferry-summer-timetable), [timetable link](https://www.argyll-bute.gov.uk/fionnphort-iona-ferry-timetable)
- - Overnight [The Bellacroy Hotel](http://www.thebellachroy.co.uk)
- - Dinner at the Bellacroy? Not booked.
+ - Journey: Ferry to Fiophort, recover the car, 50/60 miles, 2 hours. Options [via Castle Duart](https://www.google.co.uk/maps/dir/Fionnphort+Car+Park/Dervaig/Duart+Castle,+Isle+of+Mull+PA64+6AP/@56.4508479,-6.2897827,10z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x488bbcb0e7fd95af:0x647d0b1d23937094!2m2!1d-6.3655073!2d56.3240597!1m5!1m1!1s0x488bf2aa75be1881:0xd29bb8ab37d5c547!2m2!1d-6.1851779!2d56.588386!1m5!1m1!1s0x488be00c6de9aaab:0x1d2b51bbc3088c26!2m2!1d-5.6551997!2d56.4561763!3e0) or [via Ulva and Allt an Eas Fors waterfall](https://www.google.co.uk/maps/dir/Fionnphort+Car+Park/Ferry+Landing,+Isle+of+Mull+PA73+6LY/Allt+an+Eas+Fors/Dervaig/@56.4512743,-6.3113559,11z/data=!3m1!4b1!4m26!4m25!1m5!1m1!1s0x488bbcb0e7fd95af:0x647d0b1d23937094!2m2!1d-6.3655073!2d56.3240597!1m5!1m1!1s0x488beb4610763931:0x2e703c7a485cf86!2m2!1d-6.149812!2d56.48167!1m5!1m1!1s0x488bec98ede86955:0xf3b5885868e9bf8a!2m2!1d-6.142293!2d56.5083436!1m5!1m1!1s0x488bf2aa75be1881:0xd29bb8ab37d5c547!2m2!1d-6.1851779!2d56.588386!3e0). The [Fiophort Iona Ferry](https://www.calmac.co.uk/fionnphort-iona-iona-ferry-summer-timetable), [timetable link](https://www.argyll-bute.gov.uk/fionnphort-iona-ferry-timetable) turn up and go.
+ - Overnight at [the Bellacroy Hotel](http://www.thebellachroy.co.uk) and dinner at the Bellacroy? Not booked.
 
- - Walks on Ulva at Ulva Ferry, 
- - Walks at Calfary Beach and walks at the bays not to be missed
+ - Walks on [Ulva](http://www.isle-of-mull.net/locations/islands-around-mull/ulva/) (more [information including the ferry](http://www.isleofulva.com/)) such as this [shore and woodland walk](https://www.walkhighlands.co.uk/mull/ulva-shore.shtml) (4 miles, 2-3 hours) at Ulva Ferry. Good cafe at the ferry. [All the walks](https://www.walkhighlands.co.uk/mull/isle-of-ulva.shtml). 
+ - Walks at [Calgary Beach](http://www.isle-of-mull.net/attractions/scenic-attractions/calgary-bay/) also [US](http://www.undiscoveredscotland.co.uk/mull/calgary/) and [The Independent](http://www.independent.co.uk/travel/uk/cool-place-of-the-day-calgary-bay-isle-of-mull-a6985611.html). Calgary has a [scultpure walkand]() and various [longer walks](https://www.walkhighlands.co.uk/mull/tobermory.shtml) walks at the bays not to be missed. Calgary beach is [13 minutes from Dervaig](https://www.google.co.uk/maps/dir/Fionnphort+Car+Park/Ulva/Dervaig/@56.4512743,-6.3113559,11z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x488bbcb0e7fd95af:0x647d0b1d23937094!2m2!1d-6.3655073!2d56.3240597!1m5!1m1!1s0x488b948a1ff3d0fb:0x7fb38b521aae1dd5!2m2!1d-6.2049471!2d56.4797423!1m5!1m1!1s0x488bf2aa75be1881:0xd29bb8ab37d5c547!2m2!1d-6.1851779!2d56.588386!3e0)
  - Stops Waterfall (1600)
  - Sights - [Duart Castle](http://www.duartcastle.com/) (1762), good teas!
 
@@ -142,7 +139,7 @@ Some background to Iona from
  - Overnight [The Highland Cottage](http://www.highlandcottage.co.uk)
  - Dinner TBD
  - Stops
- - Sights
+ - Sights: [The Tobermory Distillery](http://tobermorydistillery.com/the-distillery)
  - Walks
 
 ## To the Ardnamurchan Peninsula
@@ -173,6 +170,8 @@ There are plenty of [walks](https://www.walkhighlands.co.uk/fortwilliam/ardnamur
 
 http://www.incallander.co.uk/
 [Callander](http://www.undiscoveredscotland.co.uk/callander/callander/index.html)
+http://www.coolplaces.co.uk/places/uk/scotland/argyll-and-bute/7166-loch-lubnaig
+
 
 ### Tuesday 23 May - Stronian to Balquidder
  - Journey: Drive, ferry, drive 80 miles, 2 hours
